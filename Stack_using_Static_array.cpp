@@ -3,6 +3,8 @@
 // @Copyright Rakib 
 
 using namespace std;
+
+//stack using Static array.
  const int max_size = 500;
 
 class Stack{
@@ -15,7 +17,7 @@ public:
     Stack(){
         stack_size = 0;
     }
-
+    // add an element in the stack in O(1).
     void Push(int value)
     {
         if (stack_size+1 > max_size)
@@ -27,6 +29,7 @@ public:
         a[stack_size-1] = value;
 
     }
+    // Delete an element in the stack in O(1).
 
     void Pop()
     {
@@ -41,6 +44,7 @@ public:
         
     }
 
+    // print top element in the stack in O(1).
     void Top()
     {
         if (stack_size == 0)
