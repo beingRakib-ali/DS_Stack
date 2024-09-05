@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 
+// @Copyright Rakib 
+
 using namespace std;
  const int max_size = 500;
 
@@ -72,7 +74,7 @@ int main()
 
     st.Pop();
     st.Top();
-    
+
     st.Pop();
     st.Top();
 
