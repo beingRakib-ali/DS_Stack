@@ -39,7 +39,7 @@ public:
     // add an element in the stack in O(1).
     void Push(int value)
     {
-        if (stack_size+1 > max_size)
+        if (stack_size+1 > array_cap)
         {
             increase_Size();
         }
@@ -71,7 +71,6 @@ public:
             return;
         }
 
-       // return a[stack_size-1];
        cout<<a[stack_size-1]<<"\n";
         
     }
@@ -99,15 +98,6 @@ int main()
 
     st.Pop();
     st.Top();
-
-
-
-    return 0;
-}
-
-int main()
-{
-
 
 
 
