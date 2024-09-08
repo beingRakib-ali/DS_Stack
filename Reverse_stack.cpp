@@ -255,7 +255,8 @@ int main()
 
     while (st.getSize() > 0)
     {
-        tmp.Push(st.Pop());
+        tmp.Push(st.Top());
+        st.Pop();
     }
     swap(st, tmp);
 
