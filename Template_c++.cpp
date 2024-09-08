@@ -79,5 +79,16 @@ int main() {
     st.Pop();
     st.Top();
 
+    Stack<char> st2;
+
+    st2.Push('a');
+    st2.Top();
+
+    st2.Push('b');
+    st2.Top();
+
+    st2.Push('c');
+    st2.Top();
+
     return 0;
 }
