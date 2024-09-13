@@ -24,14 +24,14 @@ void Insert(list<int>&l,int index,int value)
 {
 
     auto it = l.begin(); // it point to the head value O(1).
-    advance(it,index); // traverse index for push value using advance keyward in c++, O(n).
+    advance(it,index); // traverse index for push value using advance keyward in c++, O(index).
     l.insert(it,value); // push value O(1).
 }
 
 void Delete(list<int>&l,int index)
 {
     auto it = l.begin();
-    advance(it,index); // traverse index for push value using advance keyward in c++, O(n).
+    advance(it,index); // traverse index for push value using advance keyward in c++, O(index).
     l.erase(it); // erase element O(1).
 }
 
