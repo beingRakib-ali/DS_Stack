@@ -80,7 +80,10 @@ int main()
  print(l);
  Delete(l,2);
  print(l);
+ 
+ // print size of linkedlist
 
+ cout<<"size\n"<<l.size()<<"\n";  
 
 
     return 0;
